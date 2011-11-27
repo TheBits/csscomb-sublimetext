@@ -1,0 +1,10 @@
+[
+    {
+        "keys": ["ctrl+shift+c"],
+        "command": "csscomb",
+        "context":[
+            { "key": "selector", "operator": "equal", "operand": "source.css" },
+            { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true }
+        ]
+    }
+]
